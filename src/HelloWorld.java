@@ -1,3 +1,5 @@
+import java.util.Scanner;
+
 public class HelloWorld
 {
     public static void main(String[] args)
@@ -48,7 +50,32 @@ public class HelloWorld
         double pi = 3.14159;
 
 
-        System.out.println("The Value of Pie is approximately " + pi);
+        System.out.format("The Value of Pie is approximately: %f%n ", pi);
+
+        Scanner testScan = new Scanner(System.in).useDelimiter("\n");
+        System.out.print("EnterSomething: ");
+        Integer userInput = testScan.nextInt();
+        System.out.println("You have entered: --> \"" + userInput + "\" <--");
+
+
+        System.out.println("Enter three words please: ");
+        String userString1 = testScan.next();
+        String userString2 = testScan.next();
+        String userString3 = testScan.next();
+        System.out.format("You have entered: --> %s, %s, %s", userString1, userString2, userString3);
+
+        System.out.println("Enter a sentence");
+
+
+
+
+
+
+
+
+
+
+
     }
 }
 
