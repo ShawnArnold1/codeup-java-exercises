@@ -106,8 +106,10 @@ public class ControlFlowExercises
                 .println("Are you sure you would like to continue?");
         String
                 userResponse = testScan.next();
-        if( userResponse.equalsIgnoreCase("yes")) {
-            if (numGrade <= 59) {
+        if( userResponse.contains("yes"))
+        {
+            if (numGrade <= 59)
+            {
                 System
                         .out
                         .println("You are a F, for failure you!");
@@ -125,6 +127,35 @@ public class ControlFlowExercises
                         .println("You are passing with a B!!");
             }
         }
+
+
+//        String fizzBuzz = "";
+//        for( int j =0;j <= 100; j++)
+//        {
+//            if( j % 3 == 0)
+//            {
+//                fizzBuzz += "Fizz!";
+//            }
+//            if( j % 5 == 0)
+//            {
+//                fizzBuzz += "Buzz!";
+//            }
+//            if ( j % 3 == 0 && j % 5 == 0)
+//            {
+//                fizzBuzz += "FIZZ BUZZ YA BOI";
+//            }
+//            System
+//                    .out
+//                    .println(fizzBuzz);
+//            fizzBuzz = "";
+//        }
+//
+
+
+
+
+
+
     }
 }
 
