@@ -10,13 +10,15 @@ public class ShapesTest
 
 
 
-        Measurable myShape = new Rectangle(1.5, 1.5);
-        Measurable myShape1 = new Square( 1.5, 1.5);
+        Measurable myShape;
+        Measurable shape;
+        myShape = new Rectangle(1.5, 1.5);
+        shape = new Square( 1.5);
         System.out.println(myShape.getPerimeter());
         System.out.println(myShape.getArea());
         System.out.println("++++++");
         System.out.println(myShape.getArea());
-        System.out.println(myShape.getPerimeter());
+        System.out.println(shape.getPerimeter());
 
 
 //            @Override

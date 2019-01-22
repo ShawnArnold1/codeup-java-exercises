@@ -20,6 +20,11 @@ public class Rectangle extends Quadrilateral implements Measurable
         super(length, width);
     }
 
+//    public Rectangle(double length, double width) {
+//        super(length, width);
+//    }
+//
+
 
     //    private double length;
 //    private double width;
